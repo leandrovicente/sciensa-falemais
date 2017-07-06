@@ -7,8 +7,6 @@ Este é um exemplo de uma calculadora de tarifas telefonicas.
 
     .
     ├── api
-    │   ├── models
-    │   │   ├── Channel.js
     │   ├── test
     │	  │   ├── api.js
     │   └── api.js
@@ -18,6 +16,8 @@ Este é um exemplo de uma calculadora de tarifas telefonicas.
     │	  │   │   └── style.css
     │   │   ├── scripts
     │	  │   │   └── scripts.js
+    |   │   ├── test
+    │	  │   ├── app.js
     │   ├── server
     └─  └─  └─  app.js
 
@@ -122,7 +122,7 @@ Rodar só a API:
 - Ci Buil no Jenkins.
 - Colocar na Cloud AWS (vide próximo tópico)
 
-### Cloud AWS
+### Próximas melhorias em Cloud AWS
 >AWS lambda para API<br />
 >AWS Api Gateway para os endpoits<br />
 >AWS S3 para o conteúdo estático<br />
