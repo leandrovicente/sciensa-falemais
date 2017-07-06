@@ -78,18 +78,18 @@ Para rodar o Projeto:
 >Url da Calculadora:<br />
 >http://localhost:3000/calc <br />
 
-<br />
-#### Testar API pelo Postman
-(Seguindo o padrão de API Rest)<br />
 
-status da api, método **GET**<br />
-http://localhost:3001/health/<br />
+### Testar API pelo Postman
+>(Seguindo o padrão de API Rest)<br />
 
-enviar parametros para calculo, método **GET**,<br /> parametros: {"from":"11","to":"16","minutes":"20","plan":"1"}<br />
-http://localhost:3001/calc<br />
+>status da api, método **GET**<br />
+>http://localhost:3001/health/<br />
 
-<br />
-#### Tasks adicionais
+>enviar parametros para calculo, método **GET**,<br /> parametros: {"from":"11","to":"16","minutes":"20","plan":"1"}<br />
+>http://localhost:3001/calc
+
+
+### Tasks adicionais
 Passar o lint:
 ```
  npm run gulp lint
@@ -106,7 +106,7 @@ Rodar só a API:
  npm run gulp run-api
 ```
 
-#### Próximas melhorias
+### Próximas melhorias
 - Coverage.
 - Testes com mais de 90% de cobertura.
 - Melhorar front-end, talves colocar reactjs ou angularjs.
@@ -122,7 +122,7 @@ Rodar só a API:
 - Ci Buil no Jenkins.
 - Colocar na Cloud AWS (vide próximo tópico)
 
-#### Próximas melhorias em Cloud AWS
+### Próximas melhorias em Cloud AWS
 >AWS lambda para API<br />
 >AWS Api Gateway para os endpoits<br />
 >AWS S3 para o conteúdo estático<br />
