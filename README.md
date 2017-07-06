@@ -8,16 +8,16 @@ Este é um exemplo de uma calculadora de tarifas telefonicas.
     .
     ├── api
     │   ├── test
-    │	  │   ├── api.js
+    │   │   ├── api.js
     │   └── api.js
     │── app
     │   ├── client
     │   │   ├── css
-    │	  │   │   └── style.css
+    │   │   │   └── style.css
     │   │   ├── scripts
-    │	  │   │   └── scripts.js
+    │   │   │   └── scripts.js
     |   │   ├── test
-    │	  │   ├── app.js
+    │   │   │   ├── app.js
     │   ├── server
     └─  └─  └─  app.js
 
