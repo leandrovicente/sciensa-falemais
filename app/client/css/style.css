@@ -1,0 +1,44 @@
+body {
+    background-color: #f2f2f2;
+}
+.row {
+  padding: 10px 0 0 10px;
+}
+.login {
+  text-align: center;
+  padding-top: 250px;
+}
+h3 {
+  font-size: 14px;
+}
+.exit {
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 40px;
+}
+.alert span {
+  color: black;
+}
+#messages div{
+  margin: 10px 10px 10px 10px;
+}
+.error {
+  color: red;
+  display: none;
+}
+#messages{
+  border-color: #e6e6e6;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #ffffff;
+}
+.div-small {
+    width: 140px;
+    height: 10px;
+    float: left;
+}
+.div-xsmall {
+    width: 120px;
+    height: 10px;
+    float: left;
+}

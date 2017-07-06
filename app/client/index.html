@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fale Mais</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+
+    <div class="container login" style="display:none">
+      <div class="row row-no-padding col-lg-12">
+          <h2 class="form-signin-heading">Digite seu e-mail para calcular as tarifas</h2>
+      </div>
+      <div class="row row-no-padding col-lg-12">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"><input class="form-control" id="email" type="text" placeholder="Digite seu e-mail" required autofocus></div>
+          <div class="col-md-4"></div>
+      </div>
+      <div class="row row-no-padding col-lg-12">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 error">E-mail inválido</div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row row-no-padding col-lg-12">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"><button class="btn btn-md btn-primary btn-block" type="submit" id="btnEmail">Entrar</button></div>
+          <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <div class="container chat" style="display:none">
+      <div class="page-header">
+        <h1>Calculadora de tarifas dos planos FaleMais</h1>
+        <div style="text-align:right"><h3>Olá <strong><span id="name-user"></span></strong><span class="glyphicon glyphicon-remove-circle exit" aria-hidden="true"></span></h3></div>
+      </div>
+      <div>
+      <form action="">
+        <div class="row row-no-padding col-xs-12">
+          <div class="col-xs-2"><strong>DDD de Origem</strong></div>
+          <div class="col-xs-2"><strong>DDD de Destino</strong></div>
+          <div class="col-xs-4"><strong>Plano</strong></div>
+          <div class="col-xs-3"><strong>Minutos</strong></div>
+          <div class="col-xs-1"></div>
+        </div>
+        <div class="row row-no-padding col-xs-12">
+          <div class="col-xs-2">
+            <select id="from" name="from" class="form-control">
+              <option value="011">011</option>
+              <option value="016">016</option>
+              <option value="017">017</option>
+              <option value="018">018</option>
+            </select>
+          </div>
+          <div class="col-xs-2">
+            <select id="to" name="to" class="form-control">
+              <option value="011">011</option>
+              <option value="016">016</option>
+              <option value="017">017</option>
+              <option value="018">018</option>
+            </select>
+          </div>
+          <div class="col-xs-4">
+            <select id="plan" name="plan" class="form-control">
+              <option value="1">Plano FaleMais 30</option>
+              <option value="2">Plano FaleMais 60</option>
+              <option value="3">Plano FaleMais 120</option>
+            </select>
+          </div>
+          <div class="col-xs-3">
+            <input id="minutes" name="minutes" autocomplete="off" class="form-control"/>
+          </div>
+          <div class="col-xs-1"><button type="submit" class="btn btn-md btn-primary">Calcular</button></div>
+        </div>
+      </form>
+      <div class="row row-no-padding col-xs-12">
+        <div id="messages" style="height:400px;overflow:auto;"></div>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "sciensa-falemais",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.10.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-http": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-develop-server": "0.5.2",
+    "gulp-eslint": "2.1.0",
+    "gulp-mocha": "2.2.0",
+    "gulp-open": "2.0.0",
+    "request": "2.79.0"
+  }
+}
